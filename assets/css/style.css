@@ -144,3 +144,33 @@ h1, h2 {
     text-align: center;
     padding: 20px;
 }
+
+/* Classes section */
+
+#classes {
+    background-image: url(../images/gym-ropes.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#classes div {
+    color: white;
+    background-color: rgba(0, 0, 0, .6);
+    width: 16.666%;
+    height: 300px;
+    float: left;
+    text-align: center;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    box-sizing: border-box;
+    padding: 60px;
+}
+
+#classes h3 {
+    color: #ED1C24;
+    text-decoration: underline;
+}
