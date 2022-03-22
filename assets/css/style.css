@@ -119,17 +119,20 @@ h1, h2 {
 #benefits-wrap {
     display: grid;
     padding: 2rem;
-    grid-template-columns: 500px 1fr;
+    grid-template-columns: 40% 40%;
     grid-template-rows: 300px;
     gap: 1rem;
     align-items: center;
     max-width: 80%;
     margin: 0 auto;
+    justify-content: center;
+    justify-items: center;
 }
 
 #benefits-wrap img {
     max-width: 100%;
     height: auto;
+    max-height: 300px;
 }
 
 #benefits-wrap h3 {
