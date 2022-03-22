@@ -7,3 +7,5 @@ Gym-equiptment Photo by Andrea Piacquadio from Pexels
 Laughing-gym-goers Photo by Victoria Coman from Pexels
 
 2 girls laughing Photo by Los Muertos Crew from Pexels
+
+Solo-deadlift Photo by Leon Ardho from Pexels
