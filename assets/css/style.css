@@ -9,6 +9,7 @@
 body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+    font-size: 110%;
     color: #050505;
 }
 
@@ -19,6 +20,8 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ED1C24;
+    text-align: center;
+    padding: 10px;
 }
 
 #logo {
@@ -75,7 +78,7 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 130%;
+    font-size: 120%;
     font-family: 'Orbitron', sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -108,5 +111,33 @@ h1, h2 {
 }
 
 #cover-text h2, h3 {
+    padding: 20px;
+}
+
+/* Benefits section with photos */
+
+#benefits-wrap {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 500px 1fr;
+    grid-template-rows: 300px;
+    gap: 1rem;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#benefits-wrap img {
+    max-width: 100%;
+    height: auto;
+}
+
+#benefits-wrap h3 {
+    text-align: center;
+    color: #ED1C24;
+}
+
+#benefits-wrap p {
+    text-align: center;
     padding: 20px;
 }
