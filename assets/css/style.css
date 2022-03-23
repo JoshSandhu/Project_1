@@ -401,7 +401,7 @@ label {
 
     #menu {
         flex-wrap: wrap;
-        height: 100px;
+        height: 120px;
         }
 
     #menu > div {
@@ -478,7 +478,7 @@ label {
     /*About us */
 
     #about-us {
-        height: 380px;
+        height: 420px;
     }
 
     #times {
@@ -488,7 +488,7 @@ label {
         float: none;
         padding-left: 0;
         padding-top: 10px;
-        padding-bottom: 20px;
+        padding-bottom: 55px;
         background-color: rgba(0, 0, 0, .6);
     }
 
