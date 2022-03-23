@@ -265,9 +265,8 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #ED1C24;
     border-radius: 2px;
-    padding-top: 10px;
     text-align: center;
-    font-size: 120%;
+    padding: 4px;
 }
 
 .text-input-large {
@@ -278,14 +277,16 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #ED1C24;
     border-radius: 2px;
-    padding-top: 10px;
     text-align: center;
+    padding: 4px;
 }
 
 #reason {
     margin: 10px 0 20px 0;
     border: 1px solid #ED1C24;
     border-radius: 2px;
+    width: 20%;
+    height: 25px;
     background: transparent;
     color: white;
     padding: 4px;
@@ -430,8 +431,16 @@ label {
     #cover-text {
         left: 5%;
         font-size: 80%;
-        bottom: 0;
+        top: 150px;
         height: 230px;
+    }
+
+    #treadmil-outer {
+        height: 600px;
+    }
+
+    #treadmil-image {
+        height: 600px;
     }
 
     #benefits-wrap {
@@ -444,5 +453,51 @@ label {
         margin: -3rem 0 2rem 1rem;
         padding: 1rem;
         background: rgba(255, 255, 255, 0.7);
+    }
+
+    #about-us {
+        height: 380px;
+    }
+
+    #times {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        padding-left: 0;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    #find {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+        padding-right: 0;
+        padding-top: 10px;
+        background-color: rgba(0, 0, 0, .6);
+    }
+
+    .form-section {
+        height: 900px;
+    }
+
+    #form-elements {
+        height: 900px;
+    }
+
+    .text-input {
+        font-size: 80%;
+        width: 80%;
+    }
+
+    .text-input-large {
+        width: 80%;
+    }
+
+    #reason {
+        width: 80%;
     }
 }
