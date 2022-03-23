@@ -213,7 +213,7 @@ h1, h2 {
     color: #ED1C24;
 }
 
-/* footer */
+/* Footer */
 
 footer{
     height: 50px;
@@ -238,7 +238,7 @@ footer{
 
 .form-section {
     background: #050505;
-    height: 700px;
+    height: 750px;
     width: 100%;
     text-align: center;
 }
@@ -261,6 +261,9 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #ED1C24;
     border-radius: 2px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 120%;
 }
 
 .text-input-large {
@@ -271,6 +274,17 @@ label {
     margin: 5px 0 20px 0;
     border: 1px solid #ED1C24;
     border-radius: 2px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#reason {
+    margin: 10px 0 20px 0;
+    border: 1px solid #ED1C24;
+    border-radius: 2px;
+    background: transparent;
+    color: white;
+    padding: 4px;
 }
 
 .submit-button {
