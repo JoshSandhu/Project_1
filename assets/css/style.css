@@ -233,3 +233,13 @@ footer{
     padding: 1%;
     color: #ED1C24;
 }
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background: url(../images/gym-reception.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}

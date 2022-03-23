@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Your local gym and community serving the Woodford and Redbridge area.">
+    <meta name="keywords" content="gym, classes, exercise, woodford, redbridge, training">
     
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Enquire - Powers Gym</title>
@@ -21,5 +23,53 @@
             <a href="index.html#visit" class="menu-select">Visit</a>
         </nav>
     </header>
+    <section class="form-section">
+        <form method="POST" action="https://formdump.codeinstitute.net/" class="enquires"></form>
+            <h2>Submit your enquires and our team will get back to you!</h2>
+            <label for="fname" >First Name (Required)</label>
+            <input id="fname" name="first_name" type="text" required class="text-input">
+
+            <label for="lname" >Last Name (Required)</label>
+            <input id="lname" name="last_name" type="text" required class="text-input">
+
+            <label for="email">Email Address (Required)</label>
+            <input type="email" id="email" name="email_address" required class="text-input" >
+
+            <label for="phone">Phone Number (Required)</label>
+            <input type="number" id="phone" name="phone_number" required class="text-input">
+
+            <label for="reason">Please select a reason for contact. (Required)</label>
+            <select name="reason" id="reason" required>
+                <option value="new-membership">Sign up for new membership.</option>
+                <option value="join-class">Join one of our classes.</option>
+                <option value="information">Enquire about all of our services.</option>
+                <option value="chat">Request a call back or meeting.</option>
+            </select>
+
+            <label for="additional-information">Any additional information.</label>
+            <br>
+            <textarea name="additional-information" id="additional-information" cols="30" rows="10" placeholder="Any additional information please input here (Not Required)"></textarea>
+
+            <label for="data-protection">Confirm you agree to our terms and conditions before proceeding.</label>
+            <input type="checkbox" name="data-protection" id="data-protection" required>
+
+            <input type="submit" class="submit-button" value="Send Enquiry!">
+    </section>
+    <footer>
+        <ul class="social-networks">
+            <li>
+                <a href="http://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (Opens in a new tab)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="http://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (Opens in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="http://youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube channel (Opens in a new tab)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="http://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (Opens in a new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>
