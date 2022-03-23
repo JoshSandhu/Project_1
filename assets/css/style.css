@@ -141,6 +141,7 @@ h1, h2 {
 #benefits-wrap h3 {
     text-align: center;
     color: #ED1C24;
+    padding: 10px;
 }
 
 #benefits-wrap p {
@@ -176,6 +177,14 @@ h1, h2 {
 #classes h3 {
     color: #ED1C24;
     text-decoration: underline;
+    padding: 0px;
+    padding-bottom: 10px;
+}
+
+/* Map frame */
+
+#map-frame {
+    width: 100%;
 }
 
 /* About us section */
@@ -383,6 +392,8 @@ label {
 
 @media screen and (max-width: 800px) {
     
+    /* Menu and nav */
+
     #menu {
         flex-wrap: wrap;
         height: 100px;
@@ -427,6 +438,8 @@ label {
         text-align: center;
         font-size: 100%;
     }
+
+    /* Treadmil Image */
     
     #cover-text {
         left: 5%;
@@ -442,6 +455,8 @@ label {
     #treadmil-image {
         height: 600px;
     }
+    
+    /*benefits */
 
     #benefits-wrap {
         display: block;
@@ -454,6 +469,8 @@ label {
         padding: 1rem;
         background: rgba(255, 255, 255, 0.7);
     }
+
+    /*About us */
 
     #about-us {
         height: 380px;
@@ -479,6 +496,8 @@ label {
         padding-top: 10px;
         background-color: rgba(0, 0, 0, .6);
     }
+
+    /* Form */
 
     .form-section {
         height: 900px;
