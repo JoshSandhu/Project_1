@@ -14,13 +14,13 @@
 <body>
     <header>
         <nav id="menu">
-            <a href="index.html" class="menu-select">Home</a>
-            <a href="index.html#classes" class="menu-select">Classes</a>
+            <a href="index.html" class="menu-select home-menu">Home</a>
+            <a href="#classes" class="menu-select classes-menu">Classes</a>
             <div>
                 <a href="index.html"><h1 id="logo">Powers Gym</h1></a>
             </div>
-            <a href="enquires.html" class="active menu-select">Enquires</a>
-            <a href="index.html#visit" class="menu-select">Visit</a>
+            <a href="enquires.html" class="active menu-select enquires-menu">Enquires</a>
+            <a href="#visit" class="menu-select visit-menu">Visit</a>
         </nav>
     </header>
     <div class="form-section">
@@ -28,19 +28,19 @@
             <h2>Submit your enquires and our team will get back to you!</h2>
             <label for="fname" >First Name (Required)</label>
             <hr>
-            <input id="fname" name="first_name" type="text" required class="text-input">
+            <input id="fname" name="first_name" type="text" required class="text-input" placeholder="John">
             <hr>
             <label for="lname" >Last Name (Required)</label>
             <hr>
-            <input id="lname" name="last_name" type="text" required class="text-input">
+            <input id="lname" name="last_name" type="text" required class="text-input" placeholder="Smith">
             <hr>
             <label for="email">Email Address (Required)</label>
             <hr>
-            <input type="email" id="email" name="email_address" required class="text-input" >
+            <input type="email" id="email" name="email_address" required class="text-input" placeholder="no-name@email.com">
             <hr>
             <label for="phone">Phone Number (Required)</label>
             <hr>
-            <input type="tel" id="phone" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required class="text-input">
+            <input type="tel" id="phone" name="phone_number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required class="text-input" placeholder="123-456-7890">
             <hr>
             <label for="reason">Please select a reason for contact. (Required)</label>
             <hr>
@@ -55,7 +55,7 @@
             <br><hr>
             <textarea name="additional-information" id="additional-information" class="text-input-large" cols="30" rows="10" placeholder="Any additional information please input here (Not Required)"></textarea>
             <hr>        
-            <label for="data-protection">Confirm you agree to our terms and conditions before proceeding.</label>
+            <label for="data-protection">Confirm you agree to our terms and conditions* before proceeding.</label>
             <input type="checkbox" name="data-protection" id="data-protection" required>
             <hr>
             <input type="submit" class="submit-button" value="Send Enquiry!">
