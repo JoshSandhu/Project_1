@@ -301,6 +301,10 @@ label {
     padding: 4px;
 }
 
+#reason option {
+    background-color: #050505;
+}
+
 .submit-button {
     margin-top: 20px;
     border-radius: 2px;
@@ -387,6 +391,7 @@ label {
     #cover-text {
         left: 37%;
     }
+}
     
 /* Small screen sizes */
 
