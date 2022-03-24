@@ -321,6 +321,22 @@ label {
 
 /* Media queries */
 
+/* For screens with height over 1200px */
+
+@media  screen and (min-height: 1200px) {
+    #cover-text {
+        bottom: 650px;
+    }
+}
+
+/* For screen with height over 1400px */
+
+@media screen and (min-height: 1400px) {
+    #cover-text {
+        bottom: 1050px;
+    }
+}
+
 /* For larger to medium screen size from 1200px and lower */
 
 @media screen and (max-width: 1200px) {
