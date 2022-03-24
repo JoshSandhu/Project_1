@@ -2,13 +2,13 @@
 
 ## Overview.
 
-The Powers Gym website is a place where people can find out information they require about their local gym. The simple yet powerful layout and colors aim to attract a specific type of users. With information relating to the ideal target audience. The main purpose is to attract new members to join aswell as allow current members to find out information via form or information already presented.
+The Powers Gym website is a place where people can find out information they require about their local gym. The simple yet powerful layout and colors aim to attract a specific type of users. With information relating to the ideal target audience. The main purpose is to attract new members to join as well as allow current members to find out information via form or information already presented.
 
 ![Responsive screenshot of website on different devices](assets/images/responsive-screenshot-project1.png)
 
 ## Features
 
-On this website the aim is to try and project consistancy from page to page and follow a simple yet effective color contrast which matches all over the site. 
+On this website the aim is to try and project consistency from page to page and follow a simple yet effective color contrast which matches all over the site. 
 
 ### Existing features
 
@@ -22,9 +22,9 @@ On this website the aim is to try and project consistancy from page to page and 
 - **Landing page large image**
     
     * The initial landing page shows a large image including a text overlay to allow users to show the basic uses and area of purpose for this site.
-    * The text has a small animation which helps attract a users eyes without becoming hard to read or distracting.
+    * The text has a small animation which helps attract a user's eyes without becoming hard to read or distracting.
 
-![Landing page image with taxt overlay stating logo and company locations](assets/images/landing-page-image.png)
+![Landing page image with text overlay stating logo and company locations](assets/images/landing-page-image.png)
 
 - **Benefits section**
 
@@ -35,7 +35,7 @@ On this website the aim is to try and project consistancy from page to page and 
 
 - **Classes section**
 
-    * This section is aimed at seperating attractive classes in a way which is easy for users to understand.
+    * This section is aimed at separating attractive classes in a way which is easy for users to understand.
     * With responsive features restructuring in a way that continues to be readable even on mobile devices.
 
 ![Classes section screenshot showing monday to saturday lessons](assets/images/classes-screenshot.png)
@@ -65,32 +65,32 @@ On this website the aim is to try and project consistancy from page to page and 
 
 - Another idea would be to add a gallery page with images to attract new members and show off current.
 
-- A embeded map above the about us section would also be a great idea to showcase the business location.
+- A embedded map above the about us section would also be a great idea to showcase the business location.
 
 ## Testing
 
-#### All testing completed on the site was using a multiple of devices, browsers and oporating systems. Windows, IOS and Android. While also using Developers tools to ensure a responsive design.
+#### All testing completed on the site was using a multiple of devices, browsers and operating systems. Windows, IOS and Android. While also using Developers tools to ensure a responsive design.
 
 - **Header and nav**
 
     * Initial issues found was the layout of the nav bar when working on smaller screens. The fix for this was to allow FlexBox with ordering and manage the flow better with media queries.
-    * Once the bug was fixed the header was consitant on all devices and with a responsive display.
+    * Once the bug was fixed the header was consistent on all devices and with a responsive display.
 
 - **Landing page large image and text box**
 
-    * At the start of testing I found an issue with the text box and how it positions itself on the page. I found the issue was by making the text box display: absolute. I fixed this issue by changing this to relative and allowing a more consistant flow.
+    * At the start of testing I found an issue with the text box and how it positions itself on the page. I found the issue was by making the text box display: absolute. I fixed this issue by changing this to relative and allowing a more consistent flow.
 
 - **Benefits section**
 
-    * Testing for this section was very good. inital tests showed everything worked as planned even on smaller devices. Allowing a media query to turn from 2 colomns into 1 when screensize required it.
+    * Testing for this section was very good. initial tests showed everything worked as planned even on smaller devices. Allowing a media query to turn from 2 columns into 1 when screen size required it.
 
 - **Classes section**
 
-    * After the inital issue of calculating the right ration of the sections there was no further issues.
+    * After the initial issue of calculating the right ratio of the sections there were no further issues.
 
 - **About us**
 
-    * While testing on smaller screens the immediate issue was the positioning of the text. While centering the next issue was the clashing of background and text colors. The fix for this was to add a background color to the text that is some what transparent to allow the text to be read. This only works on smaller screens as not neccersary on larger ones.
+    * While testing on smaller screens the immediate issue was the positioning of the text. While centering the next issue was the clashing of background and text colors. The fix for this was to add a background color to the text that is somewhat transparent to allow the text to be read. This only works on smaller screens as not necessary on larger ones.
 
 - **Footer**
 
@@ -98,7 +98,7 @@ On this website the aim is to try and project consistancy from page to page and 
 
 - **Form**
 
-    * Initial testing with the form showed a white background on the dropdown box. This was fixed with a targeted background color change. Using this opportunity we also ensured the form had a consistant flow.
+    * Initial testing with the form showed a white background on the dropdown box. This was fixed with a targeted background color change. Using this opportunity we also ensured the form had a consistent flow.
 
 ## Validator Testing
 
@@ -111,7 +111,7 @@ On this website the aim is to try and project consistancy from page to page and 
 The live link for this website can be found [here](https://joshsandhu.github.io/Project_1/)
 
 - The site was deployed to GitHub pages. The steps are as follows:
-    * In GitHub repository, naavigate to the Settings tab.
+    * In GitHub repository, navigate to the Settings tab.
     * From there go down to Pages in the left column.
     * On the source selection drop-down box select the Master Branch.
     * Once this has been selected you are given a link after a page refresh.
@@ -128,9 +128,9 @@ I would like to take this space to say thank you to all the artists for their ph
 ### Media
 
 - All photos used within the project was sourced from https://pexels.com/ 
-    * Man on treadmil photo by William Choquette from Pexels
+    * Man on treadmill photo by William Choquette from Pexels
     * Personal trainer Photo by Julia Larson from Pexels
-    * Gym equiptment Photo by Andrea Piacquadio from Pexels
+    * Gym equipment Photo by Andrea Piacquadio from Pexels
     * Laughing gym goers Photo by Victoria Coman from Pexels
     * Two girls laughing Photo by Los Muertos Crew from Pexels
     * Solo deadlift Photo by Leon Ardho from Pexels
