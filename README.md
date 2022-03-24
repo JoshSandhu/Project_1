@@ -113,6 +113,10 @@ On this website the aim is to try and project consistency from page to page and 
 
 ![Accessibility rating of this site as determined by Lighthouse](assets/images/lighthouse-report.png)
 
+- Unfixed bugs
+
+While testing the site after launch it came to our attention that despite the css code passing the validation, the website did not. After further investigations the issue was seemed to be caused by the external code for Font Awsome. The error on CSS validator says: 'URI : https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css' Which indicates the issue is with Font Awsome and not the sites code.
+
 ## Deployment
 
 The live link for this website can be found [here](https://joshsandhu.github.io/Project_1/)
