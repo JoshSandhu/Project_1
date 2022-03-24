@@ -91,11 +91,12 @@ h1, h2 {
     height: 300px;
 
     bottom: 350px;
+    float: left;
     left: 42%;
 
     background-color: rgba(255, 255, 255, 0.7);
     
-    position: absolute;
+    position: relative;
 
     /* Animation zoom effect on text */
     animation-name: text-zoom;
@@ -179,12 +180,6 @@ h1, h2 {
     text-decoration: underline;
     padding: 0px;
     padding-bottom: 10px;
-}
-
-/* Map frame */
-
-#map-frame {
-    width: 100%;
 }
 
 /* About us section */
@@ -321,22 +316,6 @@ label {
 
 /* Media queries */
 
-/* For screens with height over 1200px */
-
-@media  screen and (min-height: 1200px) {
-    #cover-text {
-        bottom: 650px;
-    }
-}
-
-/* For screen with height over 1400px */
-
-@media screen and (min-height: 1400px) {
-    #cover-text {
-        bottom: 1050px;
-    }
-}
-
 /* For larger to medium screen size from 1200px and lower */
 
 @media screen and (max-width: 1200px) {
@@ -463,10 +442,9 @@ label {
     /* Treadmil Image */
     
     #cover-text {
-        left: 5%;
         font-size: 80%;
-        top: 150px;
         height: 230px;
+        left: auto;
     }
 
     #treadmil-outer {
