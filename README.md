@@ -104,7 +104,14 @@ On this website the aim is to try and project consistency from page to page and 
 
 - HTML
     * No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjoshsandhu.github.io%2FProject_1%2F)
+
+- CSS 
     * No errors were returned when passing through the official [(Jigssaw) validator](https://jigsaw.w3.org/css-validator/validator)
+
+- Accessibility
+    * I confirmed with Lighthouse in devtools that the website is easy to read and accessible.
+
+![Accessibility rating of this site as determined by Lighthouse](assets/images/lighthouse-report.png)
 
 ## Deployment
 
